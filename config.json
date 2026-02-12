@@ -33,14 +33,48 @@
     "ffzy": {
       "api": "http://ffzy.tv/api.php/provide/vod",
       "name": "非凡影视",
-      "detail": "http://ffzy1.tv"
+      "detail": "http://ffzy1.tv",
+      "custom_category": [
+        {
+          "name": "华语",
+          "type": [ 
+            "动作片",
+            "喜剧片",
+            "科幻片",
+            "恐怖片",
+            "爱情片",
+            "剧情片",
+            "战争片",
+            "记录片",
+            "短剧",
+            "国产剧",
+            "欧美剧",
+            "香港剧",
+            "韩国剧",
+            "台湾剧",
+            "日本剧",
+            "海外剧",
+            "泰国剧",
+            "国产动漫",
+            "日韩动漫",
+            "欧美动漫",
+            "港台动漫",
+            "海外动漫",
+            "大陆综艺",
+            "港台综艺",
+            "日韩综艺",
+            "欧美综艺"
+          ],
+          "query": "华语"
+        }
+      ]  
     },
     "zy360": {
       "api": "https://360zy.com/api.php/provide/vod",
       "name": "360资源"
     },
     "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "api": "https://caiji.maotaizy.cc/api.php.php/provide/vod",
       "name": "茅台资源"
     },
     "wolong": {
@@ -53,7 +87,7 @@
       "detail": "https://jszyapi.com"
     },
     "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
+      "api": "https://dbzyzy.tv/api.php/provide/vodod",
       "name": "豆瓣资源"
     },
     "mozhua": {
@@ -95,8 +129,7 @@
     "custom_category": [
       {
         "name": "华语",
-        "type": [
-          "movie",
+        "type": [ 
           "动作片",
           "喜剧片",
           "科幻片",
@@ -140,7 +173,7 @@
           "中文字幕",
           "AV解说",
           "换脸明星",
-          "强奸乱伦",
+          "但奸乱伦",
           "女优明星",
           "欧美激情",
           "重口激情",
